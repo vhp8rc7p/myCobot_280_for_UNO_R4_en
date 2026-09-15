@@ -12,12 +12,6 @@ runs the same `MyCobotBasic` library, reconfigured for a non-M5 board, and acts
 as a transparent serial bridge so `pymycobot` on the host drives the arm
 directly.
 
-## Why a separate guide
-
-The official myCobot 280 Arduino documentation targets the **M5Stack Basic**,
-which is an ESP32 board. The UNO R4 is a Renesas RA4M1 (Arm Cortex-M4), and the
-differences are not cosmetic:
-
 | | M5Stack Basic | Arduino UNO R4 |
 |---|---|---|
 | MCU | ESP32 | Renesas RA4M1 (Cortex-M4) |
@@ -27,49 +21,8 @@ differences are not cosmetic:
 | Screen | 320x240 LCD | 12x8 LED matrix |
 | `ParameterList.h` profile | `MyCobot_M5` | `MyCobot_Mkr` |
 
-The stock library does not compile for the R4 without a configuration change,
-and one official example does not compile at all. Both are documented here with
-verified fixes.
-
-## Status of this document
-
-This is a **complete mirror** of the official
-[myCobot 280 for Arduino](https://github.com/elephantrobotics/mycobot_docs/tree/main/myCobot_280_for_Arduino_en)
-GitBook, with UNO R4 chapters added alongside the originals. All sections are
-present — product information, ROS/ROS2, Blockly, accessories, successful cases
-and supporting resources — with their images.
-
-Two kinds of page live side by side:
-
-| Suffix | Meaning |
-|---|---|
-| *(none)* | the **UNO R4** version — rewritten for this board |
-| `-M5` | the **original** page, preserved unchanged |
-
-So `6.1.2 Simple Use` is the R4 guide, and `6.1.2-M5 Simple Use` is the
-original M5Stack/Mega2560 one. Nothing from the source documentation was
-removed.
-
-Everything in the R4 chapters was executed end-to-end against a real myCobot
-280 and an UNO R4 WiFi — compile results, protocol traces, error messages and
-latency figures are measured output, not estimates. The inherited chapters are
-reproduced as published and were not re-verified against R4 hardware.
-
-## Relationship to the official documentation
-
-This mirrors Elephant Robotics' documentation and follows its chapter numbering
-so the two can be read side by side. Hardware, product and safety information
-remains authoritative in the official version — if the two ever disagree on
-anything that is not R4-specific, the official one is correct.
-
-Upstream issues repaired while mirroring:
-
-- **5.3 Hardware Interface** — the link in the official `SUMMARY.md` is split
-  across two lines and does not resolve; repaired here.
-- **7. Successful Cases** — three entries point at a `demo/` directory that is
-  not present in the source tree (`demo/280ar_mega2560_gripper.md`,
-  `demo/280ar_raspi4B_camera_flange.md`, `demo/280ar_jetsonxavier_pump.md`);
-  omitted here rather than left broken.
+Pages without a suffix are the UNO R4 version; pages suffixed **`-M5`** are the
+original M5Stack / Mega2560 ones, kept unchanged.
 
 ## Quick start
 
