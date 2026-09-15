@@ -33,22 +33,43 @@ verified fixes.
 
 ## Status of this document
 
-Everything in the R4-specific chapters was executed end-to-end against a real
-myCobot 280 and an UNO R4 WiFi. Compile results, protocol traces and latency
-figures are measured, not estimated. Pages that are board-independent
-(product parameters, accessories, ROS, Blockly) link to the official
-documentation rather than restating it.
+This is a **complete mirror** of the official
+[myCobot 280 for Arduino](https://github.com/elephantrobotics/mycobot_docs/tree/main/myCobot_280_for_Arduino_en)
+GitBook, with UNO R4 chapters added alongside the originals. All sections are
+present — product information, ROS/ROS2, Blockly, accessories, successful cases
+and supporting resources — with their images.
+
+Two kinds of page live side by side:
+
+| Suffix | Meaning |
+|---|---|
+| *(none)* | the **UNO R4** version — rewritten for this board |
+| `-M5` | the **original** page, preserved unchanged |
+
+So `6.1.2 Simple Use` is the R4 guide, and `6.1.2-M5 Simple Use` is the
+original M5Stack/Mega2560 one. Nothing from the source documentation was
+removed.
+
+Everything in the R4 chapters was executed end-to-end against a real myCobot
+280 and an UNO R4 WiFi — compile results, protocol traces, error messages and
+latency figures are measured output, not estimates. The inherited chapters are
+reproduced as published and were not re-verified against R4 hardware.
 
 ## Relationship to the official documentation
 
-This is an **unofficial community supplement**, not an Elephant Robotics
-publication. It follows the chapter numbering of the official
-[myCobot 280 for Arduino](https://github.com/elephantrobotics/mycobot_docs/tree/main/myCobot_280_for_Arduino_en)
-GitBook so the two can be read side by side.
+This mirrors Elephant Robotics' documentation and follows its chapter numbering
+so the two can be read side by side. Hardware, product and safety information
+remains authoritative in the official version — if the two ever disagree on
+anything that is not R4-specific, the official one is correct.
 
-Hardware, product and safety information remains authoritative in the official
-documentation. Where a topic is unchanged by the choice of controller, this
-guide links there instead of duplicating it.
+Upstream issues repaired while mirroring:
+
+- **5.3 Hardware Interface** — the link in the official `SUMMARY.md` is split
+  across two lines and does not resolve; repaired here.
+- **7. Successful Cases** — three entries point at a `demo/` directory that is
+  not present in the source tree (`demo/280ar_mega2560_gripper.md`,
+  `demo/280ar_raspi4B_camera_flange.md`, `demo/280ar_jetsonxavier_pump.md`);
+  omitted here rather than left broken.
 
 ## Quick start
 
@@ -62,3 +83,14 @@ If you only want the arm moving from Python:
 
 Ready-to-flash firmware that needs no library install:
 [MyCobot280_R4_Transponder](https://github.com/vhp8rc7p/MyCobot280_R4_Transponder).
+
+## The two things that catch people out
+
+1. **`ParameterList.h` must be switched to the Mkr profile**, and only the copy
+   in the **library root** is used by the build — the one in the example folder
+   is a template to copy *from*.
+2. **`Mkr/Transponder.ino` does not compile for the R4 as shipped**
+   (`reference to 'data' is ambiguous`).
+
+Both are covered in
+[6.1.2 Simple Use](3-FunctionsAndApplications/6.developmentGuide/Arduino/10.2-arduino_use.md).
