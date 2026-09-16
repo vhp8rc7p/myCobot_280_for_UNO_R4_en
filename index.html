@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>myCobot 280 for Arduino UNO R4</title>
+  <meta name="description" content="Driving a myCobot 280 from an Arduino UNO R4 in place of the M5Stack Basic">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root { --theme-color: #0b7285; }
+    .sidebar { width: 330px; }
+    .content, .markdown-section { max-width: 900px; }
+    .markdown-section h1 { padding-top: 1.2rem; }
+    .markdown-section table { display: table; width: 100%; }
+    .markdown-section img { border: 1px solid #e3e3e3; border-radius: 3px; }
+    .markdown-section pre > code { font-size: 0.86rem; }
+    .sidebar ul li a { font-size: 14px; }
+    .app-name-link img { max-width: 100%; }
+    /* upstream pages mix raw HTML tables and images; keep them inside the column */
+    .markdown-section > * { max-width: 100%; }
+  </style>
+</head>
+<body>
+  <div id="app">Loading…</div>
+  <script>
+    window.$docsify = {
+      name: 'myCobot 280<br><small>for Arduino UNO R4</small>',
+      repo: 'https://github.com/vhp8rc7p/myCobot_280_for_UNO_R4_en',
+      loadSidebar: '_sidebar.md',
+      subMaxLevel: 2,
+      maxLevel: 4,
+      auto2top: true,
+      relativePath: true,
+      notFoundPage: true,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search the book',
+        noData: 'No results',
+        depth: 4
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+</body>
+</html>
