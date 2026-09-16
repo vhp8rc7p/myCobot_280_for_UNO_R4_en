@@ -42,7 +42,16 @@
       subMaxLevel: 2,
       maxLevel: 4,
       auto2top: true,
+      // Needed so image paths inside pages ("../../resource/...") resolve
+      // against the page's own folder. It also makes docsify resolve SIDEBAR
+      // links that way, which doubles them - so every link in _sidebar.md is
+      // written root-absolute ("/1-Product...") to opt out of that.
       relativePath: true,
+      // With relativePath on, docsify looks for _sidebar.md in each folder.
+      // Serve the single root one for every path instead of 404ing.
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       notFoundPage: true,
       search: {
         maxAge: 86400000,

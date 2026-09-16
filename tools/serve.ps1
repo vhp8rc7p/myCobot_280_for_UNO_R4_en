@@ -24,11 +24,18 @@ if (-not (Test-Path (Join-Path $book "index.html"))) {
 }
 
 # Keep the sidebar in step with SUMMARY.md on every start.
+#
+# Links are rewritten to root-absolute ("](/path"). docsify runs with
+# relativePath:true so that image paths inside pages resolve against the page's
+# own folder - but that also makes it resolve SIDEBAR links that way, which
+# doubles them (/a/b/a/b/page.md) and 404s everything below the first page.
+# A leading "/" opts each link out of that.
 $summary = Join-Path $book "SUMMARY.md"
 $sidebar = Join-Path $book "_sidebar.md"
 if (Test-Path $summary) {
-    (Get-Content $summary) | Where-Object { $_ -notmatch '^# Summary$' } |
-        Set-Content $sidebar -Encoding UTF8
+    $text = (Get-Content $summary -Raw) -replace '(?m)^# Summary\s*$', ''
+    $text = $text -replace '\]\((?!/|https?://|#)', '](/'
+    $text.TrimStart() | Set-Content $sidebar -Encoding UTF8 -NoNewline
 }
 
 # Fail early with a clear message rather than a cryptic bind error.
