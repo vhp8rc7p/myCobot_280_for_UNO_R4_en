@@ -8,8 +8,20 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
     :root { --theme-color: #0b7285; }
-    .sidebar { width: 330px; }
-    .content, .markdown-section { max-width: 900px; }
+
+    /* The vue theme hardcodes 300px in four coupled rules: .sidebar width,
+       .content left, and the body.close transforms. Widening the sidebar
+       alone leaves the content underneath it, and leaves a strip on screen
+       when the sidebar is toggled shut. Override them together, and only
+       above the theme's 768px breakpoint so mobile keeps its own layout. */
+    @media screen and (min-width: 769px) {
+      .sidebar            { width: 330px; }
+      .content            { left: 330px; }
+      body.close .sidebar { transform: translateX(-330px); }
+      body.close .content { left: 0; }
+    }
+
+    .markdown-section { max-width: 900px; }
     .markdown-section h1 { padding-top: 1.2rem; }
     .markdown-section table { display: table; width: 100%; }
     .markdown-section img { border: 1px solid #e3e3e3; border-radius: 3px; }
