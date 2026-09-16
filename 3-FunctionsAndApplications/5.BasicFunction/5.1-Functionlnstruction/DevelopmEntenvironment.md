@@ -9,11 +9,8 @@
 
 - [Arduino Official Website](https://www.arduino.cc/en/software)
 
-- [Windows X64](https://downloads.arduino.cc/arduino-1.8.16-windows.exe)
 
-- [Mac OS X](https://downloads.arduino.cc/arduino-1.8.16-macosx.zip)
-
-- [Linux ARM 64](https://downloads.arduino.cc/arduino-1.8.16-linuxaarch64.tar.xz)
+- [Download and install the Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) — official installation guide, always current for Windows, macOS and Linux.
 
 ### 2 Installed Drivers
 
@@ -40,6 +37,27 @@ After unzipping the zip package, select the corresponding installation package t
 - [ **Windows10** ](https://download.elephantrobotics.com/software/drivers/CH9102_VCP_SER_Windows.exe)
 
 - [ **MacOS** ](https://download.elephantrobotics.com/software/drivers/CH9102_VCP_MacOS.zip)
+
+> **Which of this applies to a myCobot 280 for Arduino?**
+>
+> The board package and library steps below install **M5Stack** support. That
+> is required only when the main-control board *is* an M5Stack — i.e. the
+> myCobot 280 M5. When the main control is an Arduino board (UNO, MEGA, MKR or
+> UNO R4), the M5Stack board package and the M5Stack library are **not** used
+> by the build.
+>
+> Verified: compiling `MyCobot280_Arduino/Mkr/AnglesControl` reports exactly
+> one library in use — `MyCobotBasic`. No M5Stack dependency is pulled in,
+> because `ParameterList.h` only includes `M5Stack.h` when `MyCobot_M5` is
+> defined.
+>
+> The **USB-serial driver** (CP210x / CH9102) is a separate matter: it is
+> needed to flash the **Atom** end-effector board with myStudio, whichever
+> main control you use. An Arduino UNO R4 needs no driver of its own — it
+> enumerates as a native USB CDC device.
+>
+> For UNO R4 setup, see
+> [6.1.1 Environment Construction](../../6.developmentGuide/Arduino/10.1-arduino_download.md).
 
 ### 3 Add board
 

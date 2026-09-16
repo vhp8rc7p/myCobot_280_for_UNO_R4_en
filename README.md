@@ -26,7 +26,11 @@ original M5Stack / Mega2560 ones, kept unchanged.
 
 ## Quick start
 
-If you only want the arm moving from Python:
+New to this? Start with
+**[6.1.6 Build and upload, step by step](3-FunctionsAndApplications/6.developmentGuide/Arduino/10.6-arduino_ide_build.md)**
+— a click-by-click walkthrough from a fresh Arduino IDE to a moving arm.
+
+Or go straight to the topic you need:
 
 1. [Environment setup](3-FunctionsAndApplications/6.developmentGuide/Arduino/10.1-arduino_download.md)
 2. [Wiring](3-FunctionsAndApplications/5.BasicFunction/5.3-HardwareInterface/RoboticArmElectricalInterface.md)
