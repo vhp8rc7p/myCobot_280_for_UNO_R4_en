@@ -14,10 +14,6 @@ main-control board differs, so only that part of the specification changes.
 
 ## Part 1 — Arm specification
 
-As published at
-[ER myCobot 280 for Arduino 2023 产品参数](https://www.elephantrobotics.com/mycobot-280-arduino-2023-%E4%BA%A7%E5%93%81%E5%8F%82%E6%95%B0/).
-Unchanged by the choice of main-control board.
-
 | Parameter | Value |
 |---|---|
 | Degrees of freedom | 6 |
@@ -202,19 +198,6 @@ Two host-side behaviours differ from an M5 build:
   connecting before sending commands.
 - **DTR must be asserted** or the USB CDC endpoint stays silent. `pyserial`
   does this by default.
-
----
-
-## Provenance
-
-| Section | Source |
-|---|---|
-| Part 1 arm specification | Elephant Robotics published product parameters |
-| R4 MCU, clock, memory, UART count, EEPROM | Arduino core `renesas_uno` 1.6.0 — `boards.txt`, variant headers |
-| UNO R3 / MEGA 2560 figures | Arduino core `avr` 1.8.7 — `boards.txt` |
-| Firmware footprint | `arduino-cli compile` output |
-| Link performance | measured against a myCobot 280 and an UNO R4 WiFi |
-| Serial mapping, baud, opcodes | `MyCobotBasic` source (`ParameterList.h`, `MyCobotBasic.h`) |
 
 Flash and SRAM figures for the UNO R3 and MEGA 2560 are the Arduino
 toolchain's usable limits after the bootloader, not raw device capacity.
