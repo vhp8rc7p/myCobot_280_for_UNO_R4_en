@@ -1,6 +1,5 @@
 # Summary
 * [Introduction](README.md)
-* [Introduction (original document)](README-M5.md)
 * Product Information
    * [1. Product Introduction](1-ProductInformation/1.ProductIntroduction/1-ProductIntroduction.md)
    * [2. Product Parameters](1-ProductInformation/2.ProductParameter/2-ProductParameters.md)
