@@ -123,14 +123,32 @@ poster="" data-setup='{"aspectRatio":"16:9"}'>
 
 ## Hardware connection
 
-**Note:** The current 280AR serial port baud rate is changed to 1000000. The wiring of different development boards is different:
+**Note:** The current 280AR serial port baud rate is 1000000.
 
-| Development board type | Baud rate | Control method | Wiring method | Wiring diagram |
-| :------: | :----------------------: | :----------------------: | :-----------------: | :---------: |
-| mega2560 | 1000000 | python/MyBlockly |TX0-->RX、RX0-->TX、GND-->GND | ![](../../resource/4-SupportAndService/9.Troubleshooting/9.images/arduino_4.jpg) |
-| mega2560 | 1000000 | Arduino IDE |TX1-->RX、RX1-->TX、GND-->GND |![](../../resource/4-SupportAndService/9.Troubleshooting/9.images/arduino_5.jpg)|
-| UNO | 1000000 | Arduino IDE |tx-->tx RX-->RX, GND-->GND |![](../../resource/4-SupportAndService/9.Troubleshooting/9.images/arduino_6.jpg)|
-| mkrwifi1010 | 1000000 | None | None | None |
+| Development board type | Baud rate | Control method | Wiring method |
+| :------: | :----------------------: | :----------------------: | :-----------------: |
+| UNO R4 | 1000000 | Arduino IDE / python | D1(TX)-->RX、D0(RX)-->TX、GND-->GND |
+
+**Power the arm down before wiring.**
+
+```
+R4 D1 (TX)  ---->  arm RX
+R4 D0 (RX)  <----  arm TX
+R4 GND      -----  arm GND
+```
+
+TX and RX must **cross over**: each side's transmitter goes to the other
+side's receiver, and ground must be common. Connecting TX to TX is the most
+common mistake — it fails with **complete silence at every baud rate**, not
+just the wrong one, and puts two outputs in contention.
+
+On the UNO R4, D0/D1 are `Serial1`. The USB port is a separate peripheral, so
+the host connection and the arm link do not share a UART.
+
+> **Voltage:** the UNO R4's D0/D1 operate at **5 V**. If the arm's UART is
+> 3.3 V, the R4-to-arm direction is outside spec. It works in practice, but a
+> level shifter — or at minimum a divider on the R4 TX line — is the correct
+> fix for sustained use. The arm-to-R4 direction needs nothing.
 
 ## How to perform zero calibration
 

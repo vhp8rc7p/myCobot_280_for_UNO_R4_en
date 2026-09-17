@@ -49,8 +49,8 @@
 | Wireless | UNO R4 WiFi: Wi-Fi + Bluetooth LE; UNO R4 Minima: none |
 | Display | UNO R4 WiFi: 12 × 8 LED matrix; UNO R4 Minima: none |
 
-Both UNO R4 variants drive the arm. For wiring and the electrical interface,
-see [5.3 Hardware Interface](../../3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/RoboticArmElectricalInterface.md).
+Both UNO R4 variants drive the arm. For wiring, see
+[4. First Use — Hardware connection](../../2-BasicSettings/4.FirstTimeInstallation/4-FirstTimeInstallation.md).
 
 ### 2.2 UNO R3 and UNO R4 compared
 
