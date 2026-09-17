@@ -129,4 +129,50 @@ Figure 2.1.8.2-12 Grove
 
 * D. Servo interface: used for end extension gripper, currently supports matching adaptive gripper.
 
+## 3 Connecting an Arduino UNO R4
+
+### 3.1 Serial port mapping
+
+| Main control | Port to PC | Port to arm |
+| :----------: | :--------: | :---------: |
+| Arduino UNO / MEGA 2560 | `Serial` | `Serial1` |
+| Arduino MKR WiFi 1010 | `Serial` | `Serial1` |
+| Arduino UNO R4 | `Serial` (native USB CDC) | `Serial1` (D0/D1) |
+
+On a classic UNO the single hardware UART on pins 0/1 is also the USB port. The
+**UNO R4 is different**: USB is a separate native CDC peripheral, and D0/D1
+became `Serial1`. This is why the R4 uses the `MyCobot_Mkr` profile in
+`ParameterList.h` — see
+[6.1.1 Environment setup (UNO R4)](../../6.developmentGuide/Arduino/10.1-arduino_download.md).
+
+### 3.2 Wiring
+
+**Power the arm down before wiring.** UART must cross over: each side's
+transmitter goes to the other side's receiver, and ground must be common.
+
+```
+R4 D1 (TX)  ---->  arm RX
+R4 D0 (RX)  <----  arm TX
+R4 GND      -----  arm GND
+```
+
+Connecting TX to TX is the most common mistake. It fails in a distinctive way:
+**complete silence at every baud rate**, not just the wrong one. It also puts
+two push-pull outputs in contention, so power down before correcting it.
+
+### 3.3 Baud rate
+
+The arm link runs at **1000000 baud**, fixed, with no negotiation. The USB
+side's baud rate is ignored because it is USB CDC.
+
+### 3.4 Voltage levels
+
+> The UNO R4's D0/D1 operate at **5 V**. The M5Stack Basic is ESP32-based and
+> therefore **3.3 V**, as are Arduino MKR boards.
+
+If the arm's UART is 3.3 V, the **R4 to arm** direction is outside spec. It
+does function in practice, but a level shifter — or at minimum a divider on the
+R4 TX line — is the correct fix for sustained use. The **arm to R4** direction
+needs nothing, as 3.3 V reads reliably as logic HIGH on a 5 V input.
+
 * E. Atom: used for 5X5 RGB LED (G27) display and button function (G39)

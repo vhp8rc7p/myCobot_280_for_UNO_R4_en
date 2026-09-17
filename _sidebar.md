@@ -15,7 +15,6 @@
      * [5.1 Introduction to the use of the robotic arm system](/3-FunctionsAndApplications/5.BasicFunction/5.1-Functionlnstruction/DevelopmEntenvironment.md)
      * [5.2 myStudio instructions](/3-FunctionsAndApplications/5.BasicFunction/5.2-Softwarelnstructions/README.md)
      * [5.3 Hardware Interface](/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/RoboticArmElectricalInterface.md)
-     * [5.3-R4 Hardware Interface (UNO R4)](/3-FunctionsAndApplications/5.BasicFunction/5.3-HardwareInterface/RoboticArmElectricalInterface.md)
      * [5.4 PID control](/3-FunctionsAndApplications/5.BasicFunction/5.4-RobotPrecisionControl/README.md)
    * [6. Software Development Guide](/3-FunctionsAndApplications/6.developmentGuide/README.md)
      * [6.1 Development and Use Based on Arduino](/3-FunctionsAndApplications/6.developmentGuide/Arduino/README.md)
