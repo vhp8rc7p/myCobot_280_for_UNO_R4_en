@@ -129,21 +129,8 @@ poster="" data-setup='{"aspectRatio":"16:9"}'>
 | :------: | :----------------------: | :----------------------: | :-----------------: |
 | UNO R4 | 1000000 | Arduino IDE / python | D1(TX)-->RX、D0(RX)-->TX、GND-->GND |
 
-**Power the arm down before wiring.**
-
-```
-R4 D1 (TX)  ---->  arm RX
-R4 D0 (RX)  <----  arm TX
-R4 GND      -----  arm GND
-```
-
-TX and RX must **cross over**: each side's transmitter goes to the other
-side's receiver, and ground must be common. Connecting TX to TX is the most
-common mistake — it fails with **complete silence at every baud rate**, not
-just the wrong one, and puts two outputs in contention.
-
-On the UNO R4, D0/D1 are `Serial1`. The USB port is a separate peripheral, so
-the host connection and the arm link do not share a UART.
+**Power the arm down before wiring.** TX and RX must cross over, and ground
+must be common.
 
 ## How to perform zero calibration
 
