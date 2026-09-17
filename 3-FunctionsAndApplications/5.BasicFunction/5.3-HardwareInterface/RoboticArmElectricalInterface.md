@@ -28,7 +28,7 @@ port, which is why the library's `MyCobot_Uno` profile maps the arm to
 `Serial`. The **UNO R4 is different**: USB is a separate native CDC
 peripheral, and D0/D1 became `Serial1`. Selecting `MyCobot_Uno` on an R4 would
 point the arm link at the USB port and collide with your Python connection.
-Use `MyCobot_Mkr` — see [6.1.6 Build and upload, step by step](../../6.developmentGuide/Arduino/10.6-arduino_ide_build.md).
+Use `MyCobot_Mkr` — see [6.1.1 Environment setup (UNO R4)](../../6.developmentGuide/Arduino/10.1-arduino_download.md).
 
 ## Wiring
 
@@ -109,7 +109,7 @@ it is worth addressing for anything left running unattended.
 ## Verifying the link
 
 With the transponder firmware flashed (see
-[6.1.6 Build and upload, step by step](../../6.developmentGuide/Arduino/10.6-arduino_ide_build.md)), this checks the **board only** — no arm or arm power required,
+[6.1.1 Environment setup (UNO R4)](../../6.developmentGuide/Arduino/10.1-arduino_download.md)), this checks the **board only** — no arm or arm power required,
 because the R4 answers it itself:
 
 ```
