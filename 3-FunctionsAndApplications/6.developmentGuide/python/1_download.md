@@ -144,7 +144,7 @@ After PyCharm is installed, enter the software and create the first program.
 ### Before use
 
 * Firmware burning. Firmware refers to the device "driver" stored inside the device. Only through firmware can the operating system implement the operation of a specific machine according to the standard device driver. Different versions of the robot arm need to burn different firmware (refer to the **MyStudio**chapter).
-* **Arduino version** The Basic at the bottom needs to burn minirobot. After the burning is completed, select the **Transponder** function (this function is used to receive and forward the instructions sent by the Basic at the bottom to perform the target action), click `Press A`, and the **Atom: OK** prompt message appears, which means success. In addition, the latest version of atomMain is burned in the Atom at the end of the Arduino version. It is burned by default at the factory, and there is no need to burn it yourself.
+* **Arduino version** The main-control board at the bottom needs the **Transponder** example flashed to it. This receives commands from the PC and forwards them to the arm, which is what lets pymycobot control it. Flash it from the Arduino IDE - see [6.1.1 Environment setup](../Arduino/10.1-arduino_download.md). In addition, the latest version of atomMain is burned in the Atom at the end of the Arduino version. It is burned by default at the factory, and there is no need to burn it yourself.
 * **Pi \ jetsonnano version** The latest version of atomMain is burned in the Atom at the end. It is burned by default at the factory, and there is no need to burn it yourself.
 * pymycobot installation. Open a console terminal (shortcut Win+R, enter cmd to enter the terminal), and enter the following command:
 
