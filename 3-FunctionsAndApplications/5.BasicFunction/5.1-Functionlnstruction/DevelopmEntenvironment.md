@@ -14,11 +14,13 @@
 
 ### 2 Installed Drivers
 
-Before burning the program, M5Core host (including M5Stack-basic/GRAY/M5GO/FIRE/FACES) / According to the operating system you use, for the device user's **microcontroller type**, please download the corresponding driver package. After unzipping the package, select the installation package for the corresponding OPERATION system bit.
+A USB-serial driver is needed to flash the **Atom** board at the end of the arm with myStudio. Download the driver package for the operating system you use. After unzipping the package, select the installation package for the corresponding operating system bit.
+
+The main-control board may not need a driver of its own: Arduino MKR and UNO R4 boards are native USB devices, and UNO / MEGA 2560 are recognised by Windows 10 and 11 without one.
 
 For Mac OS, make sure the system settings are correct **Preferences --> Security and Privacy --> General** and allow users to obtain from the App Store or approved developers.
 
-Download **M5Stack-basic** serial port driver **CP210X** or **CP34X**
+Download the serial port driver **CP210X** or **CP34X**
 
 **CP210X**
 
@@ -38,44 +40,20 @@ After unzipping the zip package, select the corresponding installation package t
 
 - [ **MacOS** ](https://download.elephantrobotics.com/software/drivers/CH9102_VCP_MacOS.zip)
 
-> **Which of this applies to a myCobot 280 for Arduino?**
->
-> The board package and library steps below install **M5Stack** support. That
-> is required only when the main-control board *is* an M5Stack — i.e. the
-> myCobot 280 M5. When the main control is an Arduino board (UNO, MEGA, MKR or
-> UNO R4), the M5Stack board package and the M5Stack library are **not** used
-> by the build.
->
-> Verified: compiling `MyCobot280_Arduino/Mkr/AnglesControl` reports exactly
-> one library in use — `MyCobotBasic`. No M5Stack dependency is pulled in,
-> because `ParameterList.h` only includes `M5Stack.h` when `MyCobot_M5` is
-> defined.
->
-> The **USB-serial driver** (CP210x / CH9102) is a separate matter: it is
-> needed to flash the **Atom** end-effector board with myStudio, whichever
-> main control you use. An Arduino UNO R4 needs no driver of its own — it
-> enumerates as a native USB CDC device.
->
-> For UNO R4 setup, see
-> [6.1.1 Environment Construction](../../6.developmentGuide/Arduino/10.1-arduino_download.md).
-
 ### 3 Add board
 
-* Open Arduino IDE and select **File --> Preferences --> Settings** to add the following url to the additional board manager:
+Install the board package for the main-control board you are using. Open
+**Tools --> Board --> Boards Manager**, search for the package and click
+Install:
 
-https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json
+| Main control | Board package to install |
+| :----------: | :----------------------: |
+| Arduino UNO / MEGA 2560 | Arduino AVR Boards (usually preinstalled) |
+| Arduino MKR WiFi 1010 | Arduino SAMD Boards |
+| Arduino UNO R4 WiFi / Minima | Arduino UNO R4 Boards |
 
-<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.1-Functionlnstruction/10-1-3-001.png" alt="10-1-3-001" width="50%"><br>
-
-<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.1-Functionlnstruction/10-1-3-002.png" alt="10-1-3-002" width="50%"><br>
-
-* After adding, click **Tools --> Board --> Boards Manager**, in the new pop-up dialog box, Enter and search for **M5Stack**, click "Install" (if the search fails, you can try to restart the **Arduino** program), as shown below:
-
-<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.1-Functionlnstruction/10-1-3-003.png" alt="10-1-3-003" width="50%"><br>
-
-* After adding, click **Tools --> Board**, check if it is successful, as shown below:
-
-<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.1-Functionlnstruction/10-1-3-004.png" alt="10-1-3-004" width="50%"><br>
+After installing, click **Tools --> Board** and check that the board appears
+in the list.
 
 ### 4 Add related libraries
 
