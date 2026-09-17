@@ -57,7 +57,9 @@ if (-not $NoOpen) {
 
 Push-Location $book
 try {
-    python -m http.server $Port --bind 127.0.0.1
+    # serve.py disables caching; plain `python -m http.server` lets the browser
+    # hold on to stale .md files, so edits appear not to take effect.
+    python (Join-Path $PSScriptRoot "serve.py") $Port
 }
 finally {
     Pop-Location
