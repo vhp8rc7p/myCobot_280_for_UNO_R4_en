@@ -127,10 +127,25 @@ poster="" data-setup='{"aspectRatio":"16:9"}'>
 
 | Development board type | Baud rate | Control method | Wiring method |
 | :------: | :----------------------: | :----------------------: | :-----------------: |
-| UNO R4 | 1000000 | Arduino IDE / python | D1(TX)-->RX、D0(RX)-->TX、GND-->GND |
+| UNO R4 | 1000000 | Arduino IDE / python | TX-->TX、RX-->RX、GND-->GND |
 
-**Power the arm down before wiring.** TX and RX must cross over, and ground
-must be common.
+**Power the arm down before wiring.**
+
+The UNO R4's D0/D1 connect **straight through** to the pads of the same name on
+the base: TX to TX, RX to RX. Do not cross the wires yourself. Ground must be
+common.
+
+**Why straight through?** The base's function interface groups 1 and 4 follow
+the Arduino UNO pin layout, and the UNO R4 uses that same layout. The pads are
+labelled from the board's point of view, so the pad marked `RX` is where the
+board's RX pin goes, and the base handles the crossover internally.
+
+A MEGA 2560 is wired differently (TX1-->RX, RX1-->TX) because it uses TX1/RX1
+rather than the shield's D0/D1 pins.
+
+Note that the `MyCobot_Mkr` setting in `ParameterList.h` is unrelated to the
+wiring - it only selects which serial port the library uses in software
+(`Serial1`, which is D0/D1 on the UNO R4).
 
 ## 5. Common Problem Solving
 This section aims to help users solve common problems encountered during use, covering hardware, software, accessories, and how to self-check for the first time. If you encounter problems while using the robot arm, please read the contents of this section first to find solutions. If the listed problems cannot help you solve and you have more after-sales questions to consult, please add the after-sales butler WeChat.
