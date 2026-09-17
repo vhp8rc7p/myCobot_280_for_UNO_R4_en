@@ -145,11 +145,6 @@ just the wrong one, and puts two outputs in contention.
 On the UNO R4, D0/D1 are `Serial1`. The USB port is a separate peripheral, so
 the host connection and the arm link do not share a UART.
 
-> **Voltage:** the UNO R4's D0/D1 operate at **5 V**. If the arm's UART is
-> 3.3 V, the R4-to-arm direction is outside spec. It works in practice, but a
-> level shifter — or at minimum a divider on the R4 TX line — is the correct
-> fix for sustained use. The arm-to-R4 direction needs nothing.
-
 ## How to perform zero calibration
 
 **Note: Please strictly follow the steps below**
