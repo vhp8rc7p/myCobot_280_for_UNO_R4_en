@@ -154,6 +154,11 @@ pip install pymycobot --upgrade --user
 
 <img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pymycobotinstall.jpg" style="zoom: 67%;" />
 
+The package page on PyPI, where you can check the current version and release
+date: [pypi.org/project/pymycobot](https://pypi.org/project/pymycobot/)
+
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pymycobot-pypi.png" style="zoom: 67%;" />
+
 * Source code installation. Open a console terminal (shortcut Win+R, enter cmd to enter the terminal), enter the following command to install:
 
 ```python
