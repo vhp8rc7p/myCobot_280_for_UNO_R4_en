@@ -2,7 +2,6 @@
 * Product Information
    * [1. Product Introduction](/1-ProductInformation/1.ProductIntroduction/1-ProductIntroduction.md)
    * [2. Product Parameters](/1-ProductInformation/2.ProductParameter/2-ProductParameters.md)
-   * [2-R4. Product Parameters (UNO R4)](/1-ProductInformation/2.ProductParameter/2-ProductParameters-R4.md)
 * Basic Settings
    * [3. User Notice](/2-BasicSettings/3.UserNotice/3-UserInstructions.md)
    * [4. First Time Installation](/2-BasicSettings/4.FirstTimeInstallation/4-FirstTimeInstallation.md)

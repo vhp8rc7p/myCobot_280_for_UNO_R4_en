@@ -33,6 +33,37 @@
 | Custom buttons | None |
 | IO interface | Panel IO is a transfer function, depending on the expansion board |
 
+### 2.1 Main control board — Arduino UNO R4
+
+| Indicators | Parameters |
+| :--------: | :--------------------------------: |
+| Microcontroller | Renesas RA4M1 |
+| Core | Arm Cortex-M4, 32-bit |
+| Clock | 48 MHz |
+| Flash | 256 KB |
+| SRAM | 32 KB |
+| EEPROM | 8 KB |
+| Hardware UARTs | 3 |
+| Operating logic level | 5 V |
+| USB | USB-C |
+| Wireless | UNO R4 WiFi: Wi-Fi + Bluetooth LE; UNO R4 Minima: none |
+| Display | UNO R4 WiFi: 12 × 8 LED matrix; UNO R4 Minima: none |
+
+Both UNO R4 variants drive the arm. For wiring and the electrical interface,
+see [5.3 Hardware Interface](../../3-FunctionsAndApplications/5.BasicFunction/5.3-HardwareInterface/RoboticArmElectricalInterface.md).
+
+### 2.2 UNO R3 and UNO R4 compared
+
+| Indicators | UNO R3 | UNO R4 |
+| :--------: | :----: | :----: |
+| MCU | ATmega328P | Renesas RA4M1 |
+| Architecture | AVR 8-bit | Arm Cortex-M4 32-bit |
+| Clock | 16 MHz | 48 MHz |
+| Flash | 32 KB | 256 KB |
+| SRAM | 2 KB | 32 KB |
+| Operating logic level | 5 V | 5 V |
+| USB | Type-B | Type-C |
+
 ## 3. Structural size parameters
 ### 3.1 Workspace
 
