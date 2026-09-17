@@ -26,10 +26,3 @@ The Support and Services section will provide you with comprehensive troubleshoo
 
 #### Acknowledgements
 We really appreciate you taking the time to read the myCobot 280 For Arduino User Manual. We hope this document will help you better understand and effectively use this robot, thereby inspiring your creativity. If you have any questions or need further assistance, please feel free to contact our customer support team. We look forward to seeing your innovative projects using myCobot 280 For Arduino and welcome you to join our fast-growing developer community.
-
----
-
-*This edition also covers using an **Arduino UNO R4** as the main-control
-board in place of the M5Stack Basic. Pages without a suffix are the UNO R4
-version; pages suffixed `-M5` are the original, unchanged. Start at
-[6.1.6 Build and upload, step by step](3-FunctionsAndApplications/6.developmentGuide/Arduino/10.6-arduino_ide_build.md).*
