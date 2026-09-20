@@ -21,8 +21,7 @@ MyCobotBasic library is an open source robot control library developed by our co
 
 You can use it according to the following instructions Arduino develops our robotic arm
 1. [Environment setup](10.1-arduino_download.md)
-2. [Simple use](10.2-arduino_use.md)
-3. [API description](10.3-api.md)
+2. [API description](10.3-api.md)
 
 ## Arduino development board connection guide
 The myCobot 280 for Arduino version is developed and used based on PC and development board. **There is no built-in system inside the robot**, so the robot, PC and development board need to be combined during use, so please prepare a PC and development board before use. **Please connect the PC and development board before development**.
