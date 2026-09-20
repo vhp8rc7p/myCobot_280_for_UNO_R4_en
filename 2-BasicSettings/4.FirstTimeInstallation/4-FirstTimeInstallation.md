@@ -58,7 +58,7 @@ We sell two types of bases: flat suction cup base and G-type clamp base
 
 G-type base Applicable models: myCobot 280 series, myPalletizer 260
 
-![G base](../../resource/2-BasicSettings/4.FirstTimeInstallation/GStand.jpg)
+![G base](../../resource/2-BasicSettings/4.FirstTimeInstallation/r4-gstand-parts.jpg)
 
 - Use the G-clip to fix the base to the edge of the table
 
@@ -66,7 +66,7 @@ G-type base Applicable models: myCobot 280 series, myPalletizer 260
 
 - Make sure it is stable before starting to use
 
-![G base 2](../../resource/2-BasicSettings/4.FirstTimeInstallation/GStand2.jpg)
+![G base 2](../../resource/2-BasicSettings/4.FirstTimeInstallation/r4-mounted-on-base.jpg)
 
 2 myCobot base screw hole connection
 
@@ -134,6 +134,14 @@ poster="" data-setup='{"aspectRatio":"16:9"}'>
 The UNO R4's D0/D1 connect **straight through** to the pads of the same name on
 the base: TX to TX, RX to RX. Do not cross the wires yourself. Ground must be
 common.
+
+The base header, with the RX, TX and GND pads labelled:
+
+![base header](../../resource/2-BasicSettings/4.FirstTimeInstallation/r4-wiring-base-header.jpg)
+
+The same three wires on the UNO R4's own pin header:
+
+![board pins](../../resource/2-BasicSettings/4.FirstTimeInstallation/r4-wiring-board-pins.jpg)
 
 **Why straight through?** The base's function interface groups 1 and 4 follow
 the Arduino UNO pin layout, and the UNO R4 uses that same layout. The pads are
