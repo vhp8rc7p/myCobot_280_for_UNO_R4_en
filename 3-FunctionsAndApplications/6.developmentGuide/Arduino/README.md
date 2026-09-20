@@ -1,6 +1,6 @@
 # Arduino
 
-![arduino](../../../resource\3-FunctionsAndApplications\6.developmentGuide\Arduino/ard-01.jpg)
+![arduino](../../../resource/3-FunctionsAndApplications/6.developmentGuide/Arduino/ard-01.jpg)
 
 ## What is Arduino?
 
@@ -28,28 +28,28 @@ The myCobot 280 for Arduino version is developed and used based on PC and develo
 
 1. Power on the robot first (if the green light is on, it means the robot is powered on)
 
-![arduino](../../../resource\3-FunctionsAndApplications\6.developmentGuide\Arduino/10.png)
+![arduino](../../../resource/3-FunctionsAndApplications/6.developmentGuide/Arduino/10.png)
 
 myCobot 280 for Arduino connection
 
-![arduino](../../../resource\3-FunctionsAndApplications\6.developmentGuide\Arduino/2141arduino.jpg)
+![arduino](../../../resource/3-FunctionsAndApplications/6.developmentGuide/Arduino/2141arduino.jpg)
 
 2. Connect the Arduino board (the connection position is shown in the figure below, with the development board Arduino MEGA2560 as an example)
 
-![arduino](../../../resource\3-FunctionsAndApplications\6.developmentGuide\Arduino/2141devcon1.jpg)
+![arduino](../../../resource/3-FunctionsAndApplications/6.developmentGuide/Arduino/2141devcon1.jpg)
 
-![arduino](../../../resource\3-FunctionsAndApplications\6.developmentGuide\Arduino/11.png)
+![arduino](../../../resource/3-FunctionsAndApplications/6.developmentGuide/Arduino/11.png)
 
-![arduino](../../../resource\3-FunctionsAndApplications\6.developmentGuide\Arduino/12.png)
+![arduino](../../../resource/3-FunctionsAndApplications/6.developmentGuide/Arduino/12.png)
 
 3. Connect the serial port to the computer (if the green light is on, it means the computer is successfully connected)
 
-![arduino](../../../resource\3-FunctionsAndApplications\6.developmentGuide\Arduino/13.png)
+![arduino](../../../resource/3-FunctionsAndApplications/6.developmentGuide/Arduino/13.png)
 
 After connecting, you can follow the steps below to view the connection port number
 
 Click this computer --> Right-click to manage --> Click Device Manager --> Click on the port
 
-![arduino](../../../resource\3-FunctionsAndApplications\6.developmentGuide\Arduino/14.png)
+![arduino](../../../resource/3-FunctionsAndApplications/6.developmentGuide/Arduino/14.png)
 
 If the port number is displayed normally, it means that the development board has been successfully connected to the computer and development can begin. If no port number is displayed, please check whether the connection lines are loose or have other poor connection conditions.

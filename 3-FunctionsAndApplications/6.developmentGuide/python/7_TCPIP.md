@@ -11,7 +11,7 @@ TCP/IP transmission protocol, namely transmission control/network protocol, is a
 2. The server file needs to be executed in Raspberry Pi first (see the gif operation diagram below for specific operations)
 3. After the server file is executed, the prompts "Binding succeeded" and "waiting connect" indicate that the start is successful. The control end can refer to **2 Case** for control
 
-![Server](../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\TCPorIP/Server.gif)
+![Server](../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/TCPorIP/Server.gif)
 
 *Specific operations:*
 

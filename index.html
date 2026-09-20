@@ -39,7 +39,11 @@
       name: 'myCobot 280<br><small>for Arduino UNO R4</small>',
       repo: 'https://github.com/vhp8rc7p/myCobot_280_for_UNO_R4_en',
       loadSidebar: '_sidebar.md',
-      subMaxLevel: 2,
+      // 0 = do not inject the current page's own headings into the sidebar.
+      // With subMaxLevel > 0 docsify appends every heading of the open page
+      // under its sidebar entry, so opening "4. First Time Installation"
+      // pushed "Product Standard List" and friends in below 4.5.
+      subMaxLevel: 0,
       maxLevel: 4,
       auto2top: true,
       // Needed so image paths inside pages ("../../resource/...") resolve

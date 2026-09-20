@@ -6,7 +6,7 @@
 
 * A. The interface on the front of the base is shown in Figure 2.1.8.2-1:
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-1.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-1.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-1 Front interface of F base
 
@@ -20,14 +20,14 @@ Figure 2.1.8.2-1 Front interface of F base
 
 * B. The interface on the top of the base is shown in Figure 2.1.8.2-2:
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-2.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-2.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-2 Interfaces on the base
 - ① Function interface group 5
 ​
 * C. The interfaces on the right side of the base are shown in Figure 2.1.8.2-3:
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-3.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-3.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-3 Interfaces on the right side of the base
 - ① Power supply DC interface
@@ -40,25 +40,25 @@ A. Figure 2.1.8.2-4, Figure 2.1.8.2-5, Figure 2.1.8.2-6 and Figure 2.1.8.2-7 are
 Function interface group 1 and function interface group 4 can be used to expand development boards with the same pins as Arduino UNO, such as: Arduino UNO, Arduino MEGA 2560, etc.;
 Function interface group 2 and function interface group 3 can be used to expand development boards with the same pins as Arduino MKR WiFi 1010;
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-4.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-4.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-4 Function interface group 1
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-5.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-5.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-5 Function interface group 2
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-6.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-6.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-6 Function interface group 3
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-7.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-7.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-7 Functional interface group 4
 
 B. Figure 2.1.8.2-8 shows the signal names of the functional interface group on the base. This part of the interface corresponds to each functional interface of the connected Arduino development board.
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-8.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-8.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-8 Functional interface group 5
 
@@ -70,7 +70,7 @@ C. Power DC interface: Use a DC power socket with an outer diameter of 6.5mm and
 
 * A. The end of the robot is shown in Figure 2.1.8.2-9 and Figure 2.1.8.2-10:
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-9.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-9.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-9 End of the robot
 
@@ -78,7 +78,7 @@ Figure 2.1.8.2-9 End of the robot
 
 - ② Atom
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-10.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-10.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-10 End of the robot
 
@@ -115,7 +115,7 @@ Figure 2.1.8.2-10 End of the robot
 >
 > 5. If a GPIO is set to output mode, it outputs a high-level signal, and the circuit connection is shown in Figure 2.1.8.2-11, and the LED light will light up.
 >
-> <img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-11.png" style="zoom:100%;" />
+> <img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-11.png" style="zoom:100%;" />
 >
 > Figure 2.1.8.2-11
 
@@ -123,7 +123,7 @@ Figure 2.1.8.2-10 End of the robot
 
 * C. Grove: Definition as shown in Figure 2.1.8.2-12
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.3-FirmwareFunctionDescription/2.1.8.2-12.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.3-FirmwareFunctionDescription/2.1.8.2-12.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-12 Grove
 

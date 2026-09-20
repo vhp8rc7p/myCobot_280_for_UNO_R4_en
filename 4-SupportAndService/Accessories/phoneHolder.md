@@ -4,9 +4,9 @@
 
 **Product image**
 
-![pi](../../resource\4-SupportAndService\Accessories\holder/ph1.jpg)
+![pi](../../resource/4-SupportAndService/Accessories/holder/ph1.jpg)
 
-![pi](../../resource\4-SupportAndService\Accessories\holder/ph2.jpg)
+![pi](../../resource/4-SupportAndService/Accessories/holder/ph2.jpg)
 
 **Specifications:**
 
@@ -35,10 +35,10 @@
 - Installation
 
 Insert the LEGO connector into the holder hole:
-![](../../resource\4-SupportAndService\Accessories\holder/ph3.jpg)
+![](../../resource/4-SupportAndService/Accessories/holder/ph3.jpg)
 
 Insert the holder with the connector installed into the end of the robot arm
-![](../../resource\4-SupportAndService\Accessories\holder/ph4.jpg)
+![](../../resource/4-SupportAndService/Accessories/holder/ph4.jpg)
 
 - Use
 Pull the holder open, put the camera in, and let go. After confirming that the device is fixed, it can be used.

@@ -6,7 +6,7 @@ Before using Python to control the gripper, you need to install and connect the 
 >
 > MyCobot 280 adaptive gripper inserts the gripper into the pins on the Atom, see the following figure:
 >
-> <img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\Jaw/gripper1.jpg" style="zoom: 67%;" />
+> <img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/Jaw/gripper1.jpg" style="zoom: 67%;" />
 >
 
 ### Gripper control

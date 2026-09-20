@@ -4,7 +4,7 @@ Applicable models: myCobot 280, myPalletizer 260, mechArm 270
 
 **Product Image**
 
-![pi](../../resource\4-SupportAndService\Accessories\others/h1.jpg)
+![pi](../../resource/4-SupportAndService/Accessories/others/h1.jpg)
 
 **Specifications:**
 
@@ -41,13 +41,13 @@ Applicable models: myCobot 280, myPalletizer 260, mechArm 270
 
 ## Gripper installation:
 Insert the Lego connector into the gripper hole:
-![](../../resource\4-SupportAndService\Accessories\others/h2.png)
+![](../../resource/4-SupportAndService/Accessories/others/h2.png)
 
-![](../../resource\4-SupportAndService\Accessories\others/h3.jpg)
+![](../../resource/4-SupportAndService/Accessories/others/h3.jpg)
 
 **Electrical connection**
 Insert the gripper with the connector installed into the end of the robot arm
-![](../../resource\4-SupportAndService\Accessories\others/h4.jpg)
+![](../../resource/4-SupportAndService/Accessories/others/h4.jpg)
 
 ## Python programming control
 

@@ -4,7 +4,7 @@
 
 **Product image**
 
-![pi](../../resource\4-SupportAndService\Accessories\others/b1.jpg)
+![pi](../../resource/4-SupportAndService/Accessories/others/b1.jpg)
 
 **Specifications:**
 
@@ -28,4 +28,4 @@
 - Keyboard
 - Button
 
-![pi](../../resource\4-SupportAndService\Accessories\others/b2.png)
+![pi](../../resource/4-SupportAndService/Accessories/others/b2.png)

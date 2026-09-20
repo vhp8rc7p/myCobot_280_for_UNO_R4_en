@@ -2,7 +2,7 @@
 
 **Applicable models**: myCobot 280
 
-![Figure 12](../../resource\4-SupportAndService\Accessories\base1/stand_f_1.jpg)
+![Figure 12](../../resource/4-SupportAndService/Accessories/base1/stand_f_1.jpg)
 
 ### Specifications:
 
@@ -28,15 +28,15 @@
 - 3. Fix the four suction cups on a flat and smooth surface before starting to use.
 
 > Remove the nut:
-> ![alt text](../../resource\4-SupportAndService\Accessories\base1/SuctionInstallation.jpg)
+> ![alt text](../../resource/4-SupportAndService/Accessories/base1/SuctionInstallation.jpg)
 
 > Tighten through the holes at the four corners:
-> ![alt text](../../resource\4-SupportAndService\Accessories\base1/SuctionInstallation2.jpg)
+> ![alt text](../../resource/4-SupportAndService/Accessories/base1/SuctionInstallation2.jpg)
 
 > Adjust the number of Lego connectors as needed. It is recommended to use a sufficient number of connectors to ensure the stability of the machine:
-> ![alt text](../../resource\4-SupportAndService\Accessories\base1/SuctionInstallation3.jpg)
+> ![alt text](../../resource/4-SupportAndService/Accessories/base1/SuctionInstallation3.jpg)
 
 **Tips** <br>
 You can add a small amount of **non-conductive** liquid under the suction cup to fill the gap between the suction cup and the desktop to obtain the best adsorption effect.
 
-![Figure 12](../../resource\4-SupportAndService\Accessories\base1/SuctionInstallation4.jpg) ---
+![Figure 12](../../resource/4-SupportAndService/Accessories/base1/SuctionInstallation4.jpg) ---

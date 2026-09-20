@@ -4,9 +4,9 @@
 
 **Product image**
 
-![](../../resource\4-SupportAndService\Accessories\holder/p1.jpg)
+![](../../resource/4-SupportAndService/Accessories/holder/p1.jpg)
 
-![](../../resource\4-SupportAndService\Accessories\holder/p2.jpg)
+![](../../resource/4-SupportAndService/Accessories/holder/p2.jpg)
 
 **Specifications:**
 
@@ -37,10 +37,10 @@
 - Installation
 
 Insert the Lego connector into the holder hole:
-![](../../resource\4-SupportAndService\Accessories\holder/p3.jpg)
+![](../../resource/4-SupportAndService/Accessories/holder/p3.jpg)
 
 Insert the holder with the connector installed into the end of the robot arm
-![](../../resource\4-SupportAndService\Accessories\holder/p4.jpg)
+![](../../resource/4-SupportAndService/Accessories/holder/p4.jpg)
 
 - Use
 Insert the pen into the round hole and tighten the four screws to fix it.

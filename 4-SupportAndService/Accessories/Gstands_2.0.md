@@ -2,7 +2,7 @@
 
 **Applicable models**: myCobot 280, myPalletizer 260, mechArm 270
 
-![Figure 12](../../resource\4-SupportAndService\Accessories\base1/G1.jpg)
+![Figure 12](../../resource/4-SupportAndService/Accessories/base1/G1.jpg)
 
 ### Specifications:
 
@@ -27,8 +27,8 @@
 - 3. Make sure it is stable before starting to use
 
 > Insert the Lego connector as needed
-> ![alt text](../../resource\4-SupportAndService\Accessories\base1/G2.jpg)
+> ![alt text](../../resource/4-SupportAndService/Accessories/base1/G2.jpg)
 
-![Figure 12](../../resource\4-SupportAndService\Accessories\base1/G3.jpg)
+![Figure 12](../../resource/4-SupportAndService/Accessories/base1/G3.jpg)
 
 ---

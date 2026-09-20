@@ -12,7 +12,7 @@ Trajectory recording (including adaptive grippers) and playback can be realized.
 ```bash
 python drag_trial_teaching.py
 ```
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\drag/drag.png" style="zoom:100%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/drag/drag.png" style="zoom:100%;" />
 
 After the file is run:
 - 3.1 Select the robot port

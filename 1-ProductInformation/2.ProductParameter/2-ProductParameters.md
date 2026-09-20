@@ -2,7 +2,7 @@
 
 > In Chapter 1, we explored the product's selling points and design concepts, providing you with a panoramic view of the product's high-level understanding. Now, let's move on to Chapter 2 - Robot Parameters. This chapter will be the key to your understanding of the product's technical details. A detailed understanding of these technical parameters will not only help you fully realize the advancement and practicality of our products, but also ensure that you can use these technologies more effectively to meet your specific needs.
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/280arduino.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/280arduino.png" style="zoom:100%;" />
 
 ## 1 Robot Specifications
 
@@ -67,11 +67,11 @@ Both UNO R4 variants drive the arm. For wiring, see
 ## 3. Structural size parameters
 ### 3.1 Workspace
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/worksize.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/worksize.png" style="zoom:100%;" />
 
 ### 3.2 Specifications
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/size.png" style="zoom:50%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/size.png" style="zoom:50%;" />
 
 ### 3.3 Joint motion range
 
@@ -90,11 +90,11 @@ Both UNO R4 variants drive the arm. For wiring, see
 
 - The robot base is mounted with a flange. The base is compatible with both LEGO technology parts and M4 screws.
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/base1.jpg" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/base1.jpg" style="zoom:100%;" />
 
 - The robot end is mounted with a flange. The end of the robot arm is compatible with both LEGO technology parts and screw threaded holes.
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/base2.png" style="zoom:60%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/base2.png" style="zoom:60%;" />
 
 ## 4. Electrical characteristic parameters
 ## Electrical interface of the robot arm
@@ -103,7 +103,7 @@ Both UNO R4 variants drive the arm. For wiring, see
 
 * A. The interface on the front of the base is shown in Figure 2.1.8.2-1:
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-1.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-1.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-1 Front interface of F base
 - ① Function interface group 1
@@ -113,14 +113,14 @@ Figure 2.1.8.2-1 Front interface of F base
 
 * B. The interface on the top of the base is shown in Figure 2.1.8.2-2:
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-2.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-2.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-2 Interface on the base
 - ① Function interface group 5
 ​
 * C. The interface on the right side of the base is shown in Figure 2.1.8.2-3:
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-3.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-3.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-3 Interface on the right side of the base
 - ① Power DC interface
@@ -133,25 +133,25 @@ A. Figure 2.1.8.2-4, Figure 2.1.8.2-5, Figure 2.1.8.2-6 and Figure 2.1.8.2-7 are
 Function interface group 1 and function interface group 4 can be used to expand development boards with the same pins as Arduino UNO, such as: Arduino UNO, Arduino MEGA 2560, etc.;
 Function interface group 2 and function interface group 3 can be used to expand development boards with the same pins as Arduino MKR WiFi 1010;
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-4.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-4.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-4 Function interface group 1
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-5.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-5.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-5 Functional interface group 2
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-6.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-6.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-6 Functional interface group 3
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-7.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-7.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-7 Functional interface group 4
 
 B. Figure 2.1.8.2-8 It is the signal name of the functional interface group on the base. This part of the interface corresponds to each functional interface of the connected Arduino development board.
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-8.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-8.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-8 Functional interface group 5
 
@@ -162,13 +162,13 @@ C. Power DC interface: Use a DC power socket with an outer diameter of 6.5mm and
 
 * A. The end of the robot is shown in Figure 2.1.8.2-9 and Figure 2.1.8.2-10:
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-9.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-9.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-9 End of the robot
 - ① Servo interface
 - ② Atom
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-10.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-10.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-10 End of the robot
 - ① Function interface group 6
@@ -202,7 +202,7 @@ Figure 2.1.8.2-10 End of the robot
 >
 > 5. If a GPIO is set to output mode, it outputs a high-level signal, and the circuit connection is shown in Figure 2.1.8.2-11, and the LED light will light up.
 >
-> <img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-11.png" style="zoom:100%;" />
+> <img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-11.png" style="zoom:100%;" />
 >
 > Figure 2.1.8.2-11
 
@@ -210,7 +210,7 @@ Figure 2.1.8.2-10 End of the robot
 
 * C. Grove: Definition as shown in Figure 2.1.8.2-12
 
-<img src="../../resource\1-ProductInformation\2.ProductParameter/2.1.8.2-12.png" style="zoom:100%;" />
+<img src="../../resource/1-ProductInformation/2.ProductParameter/2.1.8.2-12.png" style="zoom:100%;" />
 
 Figure 2.1.8.2-12 Grove
 

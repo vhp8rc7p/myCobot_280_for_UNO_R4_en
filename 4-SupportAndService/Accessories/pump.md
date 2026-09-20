@@ -4,7 +4,7 @@
 
 **Product Image**
 
-> ![pi](../../resource\4-SupportAndService\Accessories\pump/P1.png)
+> ![pi](../../resource/4-SupportAndService/Accessories/pump/P1.png)
 
 **Specifications**
 
@@ -43,12 +43,12 @@
 - Flat and smooth objects
 - Cards, etc.
 
-> ![Suction pump 2.0 wiring diagram](../../resource\4-SupportAndService\Accessories\pump/P2.jpg)
+> ![Suction pump 2.0 wiring diagram](../../resource/4-SupportAndService/Accessories/pump/P2.jpg)
 
 **Installation and use**
 
 - Check whether the accessories package is complete: Lego connectors, Dupont wires, double-head suction pump
-> ![](../../resource\4-SupportAndService\Accessories\pump/P2.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/P2.jpg)
 
 - Double-head suction pump installation:
 
@@ -56,23 +56,23 @@ Structural installation:
 
 Insert the Lego connector into the reserved socket on the suction pump:
 
-> ![](../../resource\4-SupportAndService\Accessories\pump/P3.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/P3.jpg)
 
 Align the suction pump with the connector plugged in with the socket at the end of the robotic arm and insert it:
 
-> ![](../../resource\4-SupportAndService\Accessories\pump/P4.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/P4.jpg)
 
 - Electrical connection:
 
 Select the male-female DuPont wire and insert the female end into the socket marked with pins on the suction pump box:
 
 > Male-female DuPont wire:
-> ![](../../resource\4-SupportAndService\Accessories\pump/P5.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/P5.jpg)
 > Note the correspondence between the DuPont wire colors and pins in the figure:
-> ![](../../resource\4-SupportAndService\Accessories\pump/P4.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/P4.jpg)
 
 1. Insert the male end into the robot base pin according to the given correspondence:
-![](../../resource\4-SupportAndService\Accessories\pump/P7.jpg)
+![](../../resource/4-SupportAndService/Accessories/pump/P7.jpg)
 
 > The left side is the suction pump pin and the right side is the robot pin
 > GND -> GND

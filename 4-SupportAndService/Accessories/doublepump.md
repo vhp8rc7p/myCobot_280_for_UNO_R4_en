@@ -4,7 +4,7 @@
 
 **Product image**
 
-![pi](../../resource\4-SupportAndService\Accessories\pump/BP1.jpg)
+![pi](../../resource/4-SupportAndService/Accessories/pump/BP1.jpg)
 
 **Specifications**
 
@@ -46,31 +46,31 @@
 **Installation and use**
 
 - Check whether the accessories package is complete: Lego connectors, Dupont wires, double-head suction pump
-![](../../resource\4-SupportAndService\Accessories\pump/BP2.jpg)
+![](../../resource/4-SupportAndService/Accessories/pump/BP2.jpg)
 
 - Double-head suction pump installation:
 
 Structural installation:
 
 Insert the Lego connector into the reserved socket on the suction pump:
-![](../../resource\4-SupportAndService\Accessories\pump/BP3.jpg)
+![](../../resource/4-SupportAndService/Accessories/pump/BP3.jpg)
 
 Align the suction pump with the connector plugged in with the socket at the end of the robotic arm and insert it:
-![](../../resource\4-SupportAndService\Accessories\pump/BP4.jpg)
+![](../../resource/4-SupportAndService/Accessories/pump/BP4.jpg)
 
 - Electrical connection:
 
 Select the male-female DuPont wire, and insert the female end into the socket marked with pins on the suction pump box:
 
-> ![](../../resource\4-SupportAndService\Accessories\pump/BP5.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/BP5.jpg)
 
 Note the correspondence between the DuPont wire colors and pins in the figure:
 
-> ![](../../resource\4-SupportAndService\Accessories\pump/BP6.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/BP6.jpg)
 
 Insert the male end into the robot base pin according to the given correspondence:
 
-> ![](../../resource\4-SupportAndService\Accessories\pump/BP10.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/BP10.jpg)
 > The left side is the suction pump pin, and the right side is the robot arm pin
 > GND -> GND
 > 5V -> 5V

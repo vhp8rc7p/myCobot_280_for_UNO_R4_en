@@ -4,7 +4,7 @@
 
 **Product image**
 
-![pi](../../resource\4-SupportAndService\Accessories\grip/girp1.png)
+![pi](../../resource/4-SupportAndService/Accessories/grip/girp1.png)
 
 **Specifications:**
 
@@ -45,7 +45,7 @@
 **Installation and use**
 
 - Check whether the accessories package is complete: Lego connectors, grippers with connecting wires, and connecting wire extension wires
-![alt text](../../resource\4-SupportAndService\Accessories\grip/girp2.jpg)
+![alt text](../../resource/4-SupportAndService/Accessories/grip/girp2.jpg)
 
 - Gripper installation:
 
@@ -53,21 +53,21 @@
 
 Insert the Lego connector into the socket reserved for the gripper. You can choose two different directions for installation as needed:
 
-![](../../resource\4-SupportAndService\Accessories\grip/girp3.jpg)
+![](../../resource/4-SupportAndService/Accessories/grip/girp3.jpg)
 
 Align the gripper with the connector inserted into the socket at the end of the robot arm and insert it:
-![](../../resource\4-SupportAndService\Accessories\grip/girp4.jpg)
+![](../../resource/4-SupportAndService/Accessories/grip/girp4.jpg)
 
 - Electrical connection
 Connect the extension cord to the gripper:
 
-![](../../resource\4-SupportAndService\Accessories\grip/girp5.jpg)
+![](../../resource/4-SupportAndService/Accessories/grip/girp5.jpg)
 
 Insert the robot control interface:
 
-![](../../resource\4-SupportAndService\Accessories\grip/girp6.png)
+![](../../resource/4-SupportAndService/Accessories/grip/girp6.png)
 
-![](../../resource\4-SupportAndService\Accessories\grip/girp7.jpg)
+![](../../resource/4-SupportAndService/Accessories/grip/girp7.jpg)
 
 ## Programming development:
 

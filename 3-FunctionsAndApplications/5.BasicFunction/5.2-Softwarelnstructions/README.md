@@ -1,6 +1,6 @@
 # myStudio
 
-![Cover](../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.2-Softwarelnstructions/mystudioShow.jpg)
+![Cover](../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.2-Softwarelnstructions/mystudioShow.jpg)
 
 **[myStudio video tutorial](https://www.bilibili.com/video/BV1Qr4y1N7B5/)**
 
@@ -106,9 +106,9 @@ Download address:
 
 * After entering the download address, click `myStudio` on the right and select the corresponding version to download.
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.2-Softwarelnstructions/mystudiogithub.jpg" style="zoom: 35%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.2-Softwarelnstructions/mystudiogithub.jpg" style="zoom: 35%;" />
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.2-Softwarelnstructions/githubassets.jpg" style="zoom: 67%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.2-Softwarelnstructions/githubassets.jpg" style="zoom: 67%;" />
 
 * Different suffixes represent different systems, please download the corresponding version:
 * *.tra.xz —— Linux system
@@ -119,11 +119,11 @@ Download address:
 
 You can download it according to your computer system.
 
-<img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.2-Softwarelnstructions/mystudiodownload.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.2-Softwarelnstructions/mystudiodownload.jpg" style="zoom: 50%;" />
 
 > **Note:** Please download the latest version. You can view the current version in the downloaded myStudio interface and update to the latest version.
 >
-> <img src="../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.2-Softwarelnstructions/mystudiorenew.jpg" style="zoom: 33%;" />
+> <img src="../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.2-Softwarelnstructions/mystudiorenew.jpg" style="zoom: 33%;" />
 
 ## Install the driver
 
@@ -149,21 +149,21 @@ For Mac OS, make sure the system "Preferences->Security and Privacy->General" is
 - Download the terminal **Atom** serial port driver
 - [ **Windows10** ](https://download.elephantrobotics.com/software/drivers/CDM21228_Setup.zip)
 
-![P210X_install](../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.2-Softwarelnstructions/4.1.1.2-CP210X_install.gif)
+![P210X_install](../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.2-Softwarelnstructions/4.1.1.2-CP210X_install.gif)
 
 ## How to distinguish CP210X and CP34X chips
 
 - As shown in the figure below, open **Device Manager** and check **Ports (COM and LPT)**
 
-![frimware_check](../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.2-Softwarelnstructions/4.1.1.3-firmware_check.gif)
+![frimware_check](../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.2-Softwarelnstructions/4.1.1.3-firmware_check.gif)
 
 * If **Port (COM and LPT)** shows **USB-Enhanced-SERIAL CH9102**, it is **CP34X chip**
 
-![CP34X](../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.2-Softwarelnstructions/4.1.1.3-CP34X.png)
+![CP34X](../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.2-Softwarelnstructions/4.1.1.3-CP34X.png)
 
 * If **Port (COM and LPT)** shows **Silicon Labs CP210x USB to UART Bridge**, it is **CP210X chip**
 
-![CP210C](../../../resource\3-FunctionsAndApplications\5.BasicFunction\5.2-Softwarelnstructions/4.1.1.3-CP210X.png)
+![CP210C](../../../resource/3-FunctionsAndApplications/5.BasicFunction/5.2-Softwarelnstructions/4.1.1.3-CP210X.png)
 
 ## Burn and update firmware
 

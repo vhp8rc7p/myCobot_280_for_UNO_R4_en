@@ -20,23 +20,23 @@ Currently, there are two versions of Python, one is `2.x` version and the other 
 
 > **Note: **Before installing, please confirm whether your computer is 64-bit or 32-bit. Right-click `My Computer` and select `Properties`. As shown in the figure below, it is a 64-bit operating system, so select the 64-bit Python installation package.
 >
-> <img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/operatingsystemchecking1.jpg" style="zoom: 67%;" />
+> <img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/operatingsystemchecking1.jpg" style="zoom: 67%;" />
 >
-> <img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/operatingsystemchecking2.jpg" style="zoom: 67%;" />
+> <img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/operatingsystemchecking2.jpg" style="zoom: 67%;" />
 
 * **Python official download address: https://www.python.org/downloads/**
 
 * **Click the `Downloads` option to start downloading Python, click `Add Python 3.10 to PATH`, click `Install Now` to start installing Python**
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pythondownload1.jpg" style="zoom: 33%;" /> 
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pythondownload1.jpg" style="zoom: 33%;" /> 
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pythoninstall2.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pythoninstall2.jpg" style="zoom: 50%;" />
 
- <img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pythoninstall3.jpg" style="zoom : 50%;" /> 
+ <img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pythoninstall3.jpg" style="zoom : 50%;" /> 
 
 * **The prompt "Setup was successful" appears, indicating that the installation is complete**
 
-* <img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pythoninstall4.jpg" style="zoom: 50%;" /> 
+* <img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pythoninstall4.jpg" style="zoom: 50%;" /> 
 
 
 ### Run Python
@@ -44,7 +44,7 @@ Currently, there are two versions of Python, one is `2.x` version and the other 
 
 **Situation 1:**
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/successfulinstallation.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/successfulinstallation.jpg" style="zoom: 50%;" />
 
 The prompt in the picture indicates that Python has been successfully installed.
 
@@ -54,7 +54,7 @@ The prompt `>>>` indicates that we are already in the Python interactive environ
 
 If the input is wrong (for example, enter pythonn), an error message will appear:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/installerror.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/installerror.jpg" style="zoom: 50%;" />
 
 > **Note:** The error message is generally caused by not configuring the environment variables. You can refer to **1.3 Configure environment variables** to modify the environment variables.
 
@@ -65,19 +65,19 @@ The following are the steps to manually add the path where python.exe is located
 
 * Right-click My Computer –> Select Properties –> Select Advanced System Settings –> Select Environment Variables in the lower right corner:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/environment configuration.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/environment configuration.jpg" style="zoom: 50%;" />
 
 * Environment variables mainly include user variables and system variables. The environment variables that need to be set are in these two variables. As shown in the figure below:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/user variable1.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/user variable1.jpg" style="zoom: 50%;" />
 
 * User variables are used to download programs that can be used in cmd commands. Write the absolute path of the program to the user variable and you can use it, as shown in the figure below:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/user variable2.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/user variable2.jpg" style="zoom: 50%;" />
 
 * After completing the above steps, open the command prompt window (Win+R, then enter cmd, press Enter), type Python, and the prompt in the figure below indicates success:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/user variable3.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/user variable3.jpg" style="zoom: 50%;" />
 
 ## PyCharm installation and use
 
@@ -89,25 +89,25 @@ PyCharm is a powerful Python editor with cross-platform capabilities. First, let
 
 * After entering the website, we will see the following interface:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pycharm界面.jpg" style="zoom: 40%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pycharm界面.jpg" style="zoom: 40%;" />
 
 Download the file according to the interface introduction. Professional means professional version, and Community means community version. It is recommended to install the community version because it is free to use.
 
 * After downloading, start installing and click `Next`:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pycharm下载1.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pycharm下载1.jpg" style="zoom: 50%;" />
 
 * Select the corresponding options according to your personal preferences, and then click `Next`:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pycharm下载2.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pycharm下载2.jpg" style="zoom: 50%;" />
 
 * The following interface appears and continue to click `Next`:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pycharm下载3.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pycharm下载3.jpg" style="zoom: 50%;" />
 
 * Click `Finish` to complete the installation:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pycharm下载4.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pycharm下载4.jpg" style="zoom: 50%;" />
 
 ### Create a project
 
@@ -115,31 +115,31 @@ After PyCharm is installed, enter the software and create the first program.
 
 * Click the PyCharm icon on the desktop to enter PyCharm, as shown in the figure below, and click `New Project`:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/createproject1.jpg" style="zoom: 33%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/createproject1.jpg" style="zoom: 33%;" />
 
 * After clicking, find `Interpreter`, start setting the interpreter, and click `Add Interpreter`:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/interpreter1.jpg" style="zoom: 50%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/interpreter1.jpg" style="zoom: 50%;" />
 
 * Click `New`, find the python.exe storage location, and check the `Inherit global site-package` option:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/interpreter3.jpg" style="zoom: 33%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/interpreter3.jpg" style="zoom: 33%;" />
 
 * Set `Location`. Location is where the PyCharm project is stored. You can choose it according to your needs.
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/location1.jpg" style="zoom: 33%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/location1.jpg" style="zoom: 33%;" />
 
 * Create a new PyCharm file. Right-click the document icon pointed by the arrow, click `New`, click `Python File`, and the new file is created successfully.
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pycharmfile1.jpg" style="zoom: 33%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pycharmfile1.jpg" style="zoom: 33%;" />
 
 * Name Python File:
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pycharmfile2.jpg" style="zoom: 67%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pycharmfile2.jpg" style="zoom: 67%;" />
 
 * After the file is successfully created, you will enter the following interface and you can write your own program
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/createproject3.jpg" style="zoom: 33%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/createproject3.jpg" style="zoom: 33%;" />
 
 ### Before use
 
@@ -152,7 +152,7 @@ After PyCharm is installed, enter the software and create the first program.
 pip install pymycobot --upgrade --user
 ```
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pymycobotinstall.jpg" style="zoom: 67%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pymycobotinstall.jpg" style="zoom: 67%;" />
 
 The package page on PyPI, where you can check the current version and release
 date: [pypi.org/project/pymycobot](https://pypi.org/project/pymycobot/)
@@ -193,7 +193,7 @@ from pymycobot.mycobot280 import MyCobot280
 
 First, go to the project address: **https://github.com/elephantrobotics/pymycobot**. Then click the Code button on the right side of the webpage, and then click Download ZIP to download it locally. Put the pymycobot folder in the compressed package pymycobot file project into your python dependency library directory, and you can directly import and use it.
 
-<img src="../../../resource\3-FunctionsAndApplications\6.developmentGuide\python\build/pymycobotdownload.jpg" style="zoom: 33%;" />
+<img src="../../../resource/3-FunctionsAndApplications/6.developmentGuide/python/build/pymycobotdownload.jpg" style="zoom: 33%;" />
 
 ### Simple Demonstration
 

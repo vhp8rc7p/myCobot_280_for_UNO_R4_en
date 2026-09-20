@@ -17,27 +17,27 @@ Since the input and output of the robot arm is 3.3V and the input and output of 
 ## 3. Hardware Link
 
 **Overall connection diagram**
-![](../../resource\3-FunctionsAndApplications\7.SuccessfulCase/PLC2.png)
+![](../../resource/3-FunctionsAndApplications/7.SuccessfulCase/PLC2.png)
 
 **Wiring of the input of the robot arm and the output of the PLC** First connect the PLC to a 24V power supply
 
-![](../../resource\3-FunctionsAndApplications\7.SuccessfulCase/PLC2.jpg)
+![](../../resource/3-FunctionsAndApplications/7.SuccessfulCase/PLC2.jpg)
 
 Then connect the PLC output to the 24V relay coil
 
-![](../../resource\3-FunctionsAndApplications\7.SuccessfulCase/PLC3.jpg)
+![](../../resource/3-FunctionsAndApplications/7.SuccessfulCase/PLC3.jpg)
 
 Connect the robot's GPIO2 and 3.3V to the normally open contact of the 24V relay
 
-![](../../resource\3-FunctionsAndApplications\7.SuccessfulCase/PLC4.jpg)
+![](../../resource/3-FunctionsAndApplications/7.SuccessfulCase/PLC4.jpg)
 
 **Connect the robot's output to the PLC's input** Connect the 5v, GND and GPIO5 of the robot to the coil of the 5V relay
 
-![](../../resource\3-FunctionsAndApplications\7.SuccessfulCase/PLC5.jpg)
+![](../../resource/3-FunctionsAndApplications/7.SuccessfulCase/PLC5.jpg)
 
 Then connect the positive pole of 24V to the COM terminal of the 5V relay, the negative pole of 24V to the 1M terminal of the PLC, and NO to the input of the PLC
 
-![](../../resource\3-FunctionsAndApplications\7.SuccessfulCase/PLC6.jpg)
+![](../../resource/3-FunctionsAndApplications/7.SuccessfulCase/PLC6.jpg)
 
 ## 4 Software Programming
 Robot Program
@@ -54,9 +54,9 @@ pass
 mc.set_basic_output(5,0)
 ```
 **PLC program**
-![](../../resource\3-FunctionsAndApplications\7.SuccessfulCase/PLC7.png)
+![](../../resource/3-FunctionsAndApplications/7.SuccessfulCase/PLC7.png)
 
 ## 5. Effect display
-![](../../resource\3-FunctionsAndApplications\7.SuccessfulCase/PLC8.gif)
+![](../../resource/3-FunctionsAndApplications/7.SuccessfulCase/PLC8.gif)
 
 [← Previous chapter](../6.developmentGuide/README.md) | [Next chapter →](../8.SupportingResources/README.md)

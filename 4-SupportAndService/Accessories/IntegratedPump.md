@@ -1,7 +1,7 @@
 # Integrated suction pump
 Applicable models: myCobot 280, myPalletizer 260, mechArm 270
 
-![pi](../../resource\4-SupportAndService\Accessories\pump/IP1.png)
+![pi](../../resource/4-SupportAndService/Accessories/pump/IP1.png)
 
 **Specifications**
 
@@ -44,30 +44,30 @@ Applicable models: myCobot 280, myPalletizer 260, mechArm 270
 
 Check whether the accessories package is complete: Lego connectors, Dupont wires, double-head suction pump
 
-> ![](../../resource\4-SupportAndService\Accessories\pump/IP2.png)
+> ![](../../resource/4-SupportAndService/Accessories/pump/IP2.png)
 
 ## Suction pump installation
 Structural installation:
 
 Insert the Lego connector into the reserved socket on the suction pump:
 
-![](../../resource\4-SupportAndService\Accessories\pump/IP3.jpg)
+![](../../resource/4-SupportAndService/Accessories/pump/IP3.jpg)
 
 1. Align the suction pump with the connector plugged in with the socket at the end of the robot arm and insert it:
 
 >
-> ![](../../resource\4-SupportAndService\Accessories\pump/IP4.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/IP4.jpg)
 
 - Electrical connection:
 
 Select the male-female DuPont wire, and insert the female end into the socket marked with pins on the suction pump box:
 > Male-female DuPont wire:
-> ![](../../resource\4-SupportAndService\Accessories\pump/IP5.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/IP5.jpg)
 > Note the correspondence between the DuPont wire colors and pins in the figure:
-> ![](../../resource\4-SupportAndService\Accessories\pump/IP6.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/IP6.jpg)
 
 Insert the male end into the robot base pin according to the given correspondence:
-> ![](../../resource\4-SupportAndService\Accessories\pump/IP7.jpg)
+> ![](../../resource/4-SupportAndService/Accessories/pump/IP7.jpg)
 > The left side is the suction pump pin, and the right side is the robot arm pin
 > GND -> GND
 > 5V -> 5V
