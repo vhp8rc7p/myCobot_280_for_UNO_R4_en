@@ -3,7 +3,7 @@
 ## 1.1 Product List Image
 > Thank you for choosing the Elephant Robot myCobot 280 For Arduino Robotic Arm. This chapter is designed to help you easily get started with the Elephant Robotic product and enjoy every wonderful moment brought by the product.
 
-![Unboxing Kit](../../resource/2-BasicSettings/4.FirstTimeInstallation/280PI.png)
+![Unboxing Kit](../../resource/2-BasicSettings/4.FirstTimeInstallation/r4-packing-list.jpg)
 
 ## 1.2 Product Standard List Comparison Table
 
